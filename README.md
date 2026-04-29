@@ -1,6 +1,12 @@
 # ilammy/msvc-dev-cmd
 
-Hardened GitHub Action by [Chainguard](https://www.chainguard.dev).
+Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/ilammy/msvc-dev-cmd](https://github.com/ilammy/msvc-dev-cmd).
+
+## Versions
+
+| Version | Tag | Upstream commit |
+|---------|-----|-----------------|
+| v1.13.0 | [`v1.13.0`](https://github.com/chainguard-actions/msvc-dev-cmd/tree/v1.13.0) | — |
 
 ## Privacy
 
