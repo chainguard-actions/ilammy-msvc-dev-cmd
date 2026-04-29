@@ -1,5 +1,7 @@
 # ilammy/msvc-dev-cmd
 
+GitHub Action to setup Developer Command Prompt for Microsoft Visual C++
+
 Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/ilammy/msvc-dev-cmd](https://github.com/ilammy/msvc-dev-cmd).
 
 ## Versions
