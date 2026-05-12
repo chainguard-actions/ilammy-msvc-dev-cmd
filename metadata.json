@@ -1,7 +1,7 @@
 {
   "owner": "ilammy",
   "name": "msvc-dev-cmd",
-  "visibility": "internal",
+  "visibility": "public",
   "description": "GitHub Action to setup Developer Command Prompt for Microsoft Visual C++",
   "block_publish": false
 }
