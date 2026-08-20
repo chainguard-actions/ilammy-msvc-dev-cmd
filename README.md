@@ -8,7 +8,7 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 | Version | Tag | Upstream commit |
 |---------|-----|-----------------|
-| v1.13.0 | [`v1.13.0`](https://github.com/chainguard-actions/ilammy-msvc-dev-cmd/tree/v1.13.0) | — |
+| v1.13.0 | [`v1.13.0`](https://github.com/chainguard-actions/ilammy-msvc-dev-cmd/tree/v1.13.0) | [`0b201ec`](https://github.com/ilammy/msvc-dev-cmd/commit/0b201ec74fa43914dc39ae48a89fd1d8cb592756) |
 
 ## Privacy
 
