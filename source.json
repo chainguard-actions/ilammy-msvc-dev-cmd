@@ -1,0 +1,11 @@
+{
+  "owner": "ilammy",
+  "repo": "msvc-dev-cmd",
+  "version": "v1.13.0",
+  "commit_sha": "0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+  "url": "https://github.com/ilammy/msvc-dev-cmd",
+  "policy_sha": "d636be7e43ef829af6e853da6b3c7566db9f72fe",
+  "test_policy_sha": "843adf9e4b8f85d0c08b27b9d0b09dd094b54702",
+  "test_agent_version": "2",
+  "harden_agent_version": "2"
+}

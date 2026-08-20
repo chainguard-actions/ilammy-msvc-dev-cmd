@@ -1,0 +1,33 @@
+name: msvc-dev-cmd (release)
+
+on:
+  push:
+    branches:
+      - release/*
+  schedule:
+    - cron: '0 6 * * *'
+
+permissions: {}
+
+jobs:
+  test:
+    name: release
+    runs-on: windows-latest
+    steps:
+      - name: Setup Developer Command Prompt
+        uses: ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756 # release/v1
+      - name: Check out source code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Compile and run some C code
+        shell: cmd
+        run: |
+          cl.exe hello.c
+          hello.exe
+  audit:
+    name: npm audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - run: npm audit --audit-level=moderate --production
+      - run: npm audit --audit-level=critical
